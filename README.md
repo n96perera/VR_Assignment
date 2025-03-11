@@ -31,9 +31,9 @@ Ensure you have the following installed locally:
 - Aws-cli
 
 ### **2. Start Localstack (Local AWS Environment)**
-Navigate to the `docker/localstack` folder and start the Localstack container:
+Navigate to the `docker` folder and start the Localstack container:
 ```sh
-cd docker/localstack
+cd docker
 docker-compose up -d
 ```
 
@@ -56,7 +56,7 @@ mvn test
 ```
 
 ### **5. Test App localy**
-- Go to `docker/localstack folder and run the fileUpload.py python file to upload template.json file to s3
+- Go to `docker folder and run the fileUpload.py python file to upload template.json file to s3
 
 ```sh
 cd docker/localstack
